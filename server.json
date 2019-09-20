@@ -30,37 +30,37 @@
       "id": 1,
       "title": "Tênis de Caminhada Leve Confortável",
       "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "image": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/d97c9078d59c4d2bb571a93f012182ca_9366/Tenis_Ultraboost_Preto_F36153_01_standard.jpg"
     },
     {
       "id": 2,
       "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
       "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+      "image": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/78c939bf072347aaba29aa3e00c476c5_9366/Tenis_Ultraboost_19_Branco_G54008_01_standard.jpg"
     },
     {
       "id": 3,
       "title": "Tênis Adidas Duramo Lite 2.0",
       "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+      "image": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/3c0dedeeb03745c9b1f6a95a01782ed0_9366/YEEZY_BOOST_350_V2_TRIPLE_WHITE_Branco_CP9366_01_standard_1.jpg"
     },
     {
       "id": 5,
       "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
       "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+      "image": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/3a19729256034c32b7a8aa3a010556ba_9366/Tenis_NMD_R1_Primeknit_Preto_EE5075_01_standard.jpg"
     },
     {
       "id": 6,
       "title": "Tênis Adidas Duramo Lite 2.0",
       "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+      "image": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/ccf65df48dae4544835eaa2c0110607f_9366/Tenis_Superstar_Branco_EE4473_01_standard.jpg"
     },
     {
       "id": 4,
       "title": "Tênis de Caminhada Leve Confortável",
       "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "image": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/05afc687c0144e64ad3ba9fe01392d9f_9366/Tenis_Alphabounce+_Run_Parley_Preto_G28372_01_standard.jpg"
     }
   ]
 }
