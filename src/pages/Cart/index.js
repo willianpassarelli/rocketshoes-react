@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import {
   MdRemoveCircleOutline,
   MdAddCircleOutline,
+  MdShoppingCart,
   MdDelete,
 } from 'react-icons/md';
 
@@ -12,15 +13,26 @@ import { formatPrice } from '../../util/format';
 
 import * as CartActions from '../../store/modules/cart/actions';
 
-import { Container, ProductTable, Total } from './styles';
+import { Container, ProductTable, Total, CartEmpty } from './styles';
 
-function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
+function Cart({ cart, cartSize, total, removeFromCart, updateAmountRequest }) {
   function increment(product) {
     updateAmountRequest(product.id, product.amount + 1);
   }
 
   function decrement(product) {
     updateAmountRequest(product.id, product.amount - 1);
+  }
+
+  if (cartSize === 0) {
+    return (
+      <Container>
+        <CartEmpty>
+          <MdShoppingCart size={32} color="#999" />
+          <span>CARRINHO VAZIO</span>
+        </CartEmpty>
+      </Container>
+    );
   }
 
   return (
@@ -94,6 +106,7 @@ const mapStateToProps = state => ({
       return total + product.price * product.amount;
     }, 0)
   ),
+  cartSize: state.cart.length,
 });
 
 const mapDispatchToProps = dispatch =>

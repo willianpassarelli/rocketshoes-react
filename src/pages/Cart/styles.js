@@ -79,6 +79,19 @@ export const ProductTable = styled.table`
   }
 `;
 
+export const CartEmpty = styled.div`
+  display: flex;
+  margin: 20px 0;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    color: #999;
+    font-size: 22px;
+    font-weight: bold;
+  }
+`;
+
 export const Total = styled.div`
   display: flex;
   align-items: baseline;
